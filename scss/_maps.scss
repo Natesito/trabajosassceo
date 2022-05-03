@@ -1,0 +1,7 @@
+$stylenone:(
+    text-decoration: none,
+);
+
+a {
+    text-decoration: map-get($stylenone, text-decoration)
+};

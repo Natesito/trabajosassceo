@@ -1,0 +1,12 @@
+@mixin centrarCaja() {
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    @include centrarCaja
+}
+
+.Mapas {
+    @include centrarCaja()
+}

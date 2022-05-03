@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .heroImage {
+        height: 100vh;
+        width: 109vh;
+    }
+
+    .headerContainer {
+        padding: 1.5rem;
+    }
+    
+    .NavContainer {
+        display:none;
+    }
+
+    .burguerButton {
+        display: flex;
+        width: 30px;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+
+    }
+    
+    .buttonCSS {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid #57cc99;
+        background: #57cc99; }
+        .buttonCSS .buttonCSS:hover {
+          background: #fff;
+          color: #57cc99; }

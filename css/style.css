@@ -1,0 +1,206 @@
+@media (max-width: 768px) {
+  .heroImage {
+    height: 100vh;
+    width: 109vh; }
+  .headerContainer {
+    padding: 1.5rem; }
+  .NavContainer {
+    display: none; }
+  .burguerButton {
+    display: flex;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 3px; } }
+
+.buttonCSS {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #57cc99;
+  background: #57cc99; }
+
+.buttonCSS .buttonCSS:hover {
+  background: #fff;
+  color: #57cc99; }
+
+a {
+  text-decoration: none; }
+
+.buttonstyle, .buttonCSS {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #57cc99;
+  background: #57cc99; }
+
+.buttonstyle:hover, .buttonCSS {
+  background: #fff;
+  color: #57cc99; }
+
+.product {
+  display: flex;
+  align-items: center; }
+
+.Mapas {
+  display: flex;
+  align-items: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* ************ */
+/* INICIO GRID */
+/* *********** */
+.Container {
+  display: grid;
+  grid-template-areas: "header header header" "hero hero hero" "main main main" "footer footer footer"; }
+
+a {
+  text-decoration: none; }
+
+.headerContainer {
+  background-color: rgba(229, 255, 0, 0.623);
+  background: linear-gradient(90deg, #cbc31c 33%, #feff02 50%, #cbc31c 75%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: header; }
+  .headerContainer a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .headerContainer ul li {
+    display: inline-block;
+    margin: 15px 30px;
+    padding: 15px; }
+  .headerContainer ul li a:hover {
+    background-color: #d9ee1a;
+    padding: 30px;
+    transition: all 0.3s; }
+
+.heroImage {
+  display: flex;
+  background-image: url(../img/candy1.jpg);
+  width: 196.2vh;
+  height: 94vh;
+  background-size: cover;
+  grid-area: hero;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase; }
+  .heroImage h1 {
+    background-color: rgba(217, 255, 0, 0.425);
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    display: flex; }
+
+.productosContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(238, 255, 0, 0.671);
+  grid-area: main; }
+  .productosContainer img {
+    width: 640px;
+    height: 640px; }
+
+.Product {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background-color: rgba(67, 212, 23, 0.712); }
+  .Product:hover {
+    transform: scale(1.1); }
+
+.textPopular {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #2ecb1c 34%, #1fff00 51%, #2ecb1c 65%);
+  padding: 30px; }
+
+.footerContainer {
+  grid-area: footer;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #2ecb1c 34%, #1fff00 51%, #2ecb1c 65%); }
+
+main p {
+  font-size: 2rem; }
+
+.mapaContainer {
+  display: flex;
+  background-color: rgba(238, 255, 0, 0.671);
+  flex-wrap: wrap;
+  padding: 3rem;
+  align-items: center; }
+
+.mapa {
+  width: 700px;
+  margin: 30px 100px; }
+  .mapa :hover {
+    transform: scale(1.1); }
+
+/* QUERIE */
+@media (max-width: 768px) {
+  .heroImage {
+    height: 100vh;
+    width: 109vh; }
+  .headerContainer {
+    padding: 1.5rem; }
+  .NavContainer {
+    display: none; }
+  .burguerButton {
+    display: flex;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 3px; } }
+
+/* Product hover */
+.bg {
+  background-image: url(../img/candy1.jpg); }
+
+.bodyContainer {
+  background-color: #ffe259;
+  background: linear-gradient(to right, #ffa751, #ffe259); }
+
+.buttonCSS {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #57cc99;
+  background: #57cc99; }
+
+.buttonCSS:hover {
+  background: #fff;
+  color: #57cc99; }
+
+.textProducts {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
